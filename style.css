@@ -1,0 +1,112 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+html, body {
+    height:100%;
+}
+a:hover{
+  text-decoration:none;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.table{
+  width:100%;
+  display:table;
+}
+.table-cell{  
+  display:table-cell;
+  vertical-align:middle;
+}
+.vertical-middle{
+  vertical-align:middle;
+}
+.icon{
+  font-size:20px;
+}
+.container{ 
+  height:100%;  
+  margin:0 auto;
+  position:relative;
+  background:#E6E6E6;
+  display: flex;
+  
+  .panel-container{
+    width:300px;   
+    background:#F6F5F5;
+    position:relative;
+    height:100%;
+    margin:0 auto;
+  } 
+  .header{
+    background:#6747CD;
+    padding:20px;
+    color:#fff; 
+    margin:0;
+    
+    a{
+      color:#fff;
+    }
+    
+    img{
+      float:left;
+     margin-left:20px;
+    }
+    .name-info{
+      float:left;
+      padding-left:20px;
+      display:inline-block;
+      font-size:14px;
+      
+      small{
+        display:block;
+        color:#A690EB;
+        font-size:10px;
+      }
+    }
+  }
+  .body-container{
+    padding:20px;
+    
+    .date-row{
+      color:#A8B6C2;
+      text-align:center;
+      font-size:10px;
+      margin-bottom:10px;
+      font-weight:bold;
+    }
+    
+    .participant-icon{
+      width:40px;
+      vertical-align:bottom;
+      
+      img{
+        border:2px solid #fff;
+      }      
+    }
+    .participant-message{
+      display:inline-block;
+        background:#EBEBEB;
+      padding:15px;
+      font-size:12px;
+      color:#6E7A89;
+      border-radius:3px;
+      }
+  }
+  .bottom-container{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    top:auto;
+    
+    .footer-area{
+      margin:0 5px;
+      padding:10px;
+      background:#fff;
+    }
+  }
+}
